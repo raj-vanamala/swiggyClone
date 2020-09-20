@@ -1,23 +1,103 @@
-.CredentialsHideCss {
-    height: 100%;
-    width: 0;
+.sidebarCss {
     position: fixed;
-    z-index: 10001;
     top: 0;
-    right: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.3s;
+    height: 100%;
+    overflow-y: scroll;
+    background: #fff;
+    transition: transform .3s ease-out;
+    z-index: 10001;
 }
 
-.CredentialsShowCss {
-    height: 100%;
-    width: 400px;
-    position: fixed;
-    z-index: 1001;
-    top: 0;
+.loginPartCss {
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 69px;
+    z-index: 1;
+}
+
+.loginLabelCss {
+    margin-top: 25px;
+    font-size: 30px;
+    font-weight: 500
+}
+
+.fontCss10 {
+    font-size: small;
+    font-weight: bolder;
+    cursor: pointer;
+    color: #fc8019;
+    margin-left: 10px;
+}
+
+.a {
+    opacity: 0;
+    transition: opacity .3s ease-out;
+}
+
+.b {
+    opacity: 1!important;
+}
+
+.c {
+    position: absolute;
+    top: 58px;
     right: 0;
-    background-color: black;
-    overflow-x: hidden;
-    transition: 0.3s;
+    z-index: -1;
+}
+
+.inputCss {
+    border: 1px solid #d4d5d9;
+    padding: 0;
+    display: block;
+    position: relative;
+    transform: translateZ(0);
+}
+
+.inputCss1 {
+    background-color: transparent;
+    line-height: normal;
+    border: none;
+    outline: none;
+    height: 70px;
+    width: 100%;
+    font-size: 17px;
+    margin: 0;
+    padding: 0 20px;
+    padding-top: 22px;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+}
+
+.buttonCss {
+    position : relative;
+    clear:both
+}
+
+.buttonCss1 {
+    margin-top: 20px;
+}
+
+.buttonCss2 {
+    width: 100%;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    padding: 0 2rem;
+    color: #fc8019;
+    letter-spacing: 0;
+    color: #fff;
+    background-color: #fc8019;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.12);
+    text-transform: uppercase;
 }
