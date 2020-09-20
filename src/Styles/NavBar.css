@@ -1,0 +1,24 @@
+.NavBar-css {
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    box-shadow: 0 15px 40px -20px rgba(40,44,63,.15);
+    background: #fff;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+
+.NavbarLink {
+
+    text-decoration: none;
+    margin: 50px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-weight: bold;
+    color: #282c3f;
+    
+}
+

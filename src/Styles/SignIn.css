@@ -1,0 +1,23 @@
+.CredentialsHideCss {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10001;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.CredentialsShowCss {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    right: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.3s;
+}

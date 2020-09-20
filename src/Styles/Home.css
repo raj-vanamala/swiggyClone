@@ -1,0 +1,153 @@
+.InfoBar {
+    width: 100%;
+    height: 340px;
+    background-color: #171a29;
+    margin-top: 80px;
+}
+
+.ImagesContainerCss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imageCss {
+    width: 260px;
+    height: 260px;
+    margin-top: 30px;
+}
+
+.imageCss:hover {
+
+    width: 265px;
+    height: 265px;
+    cursor: pointer;
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.flexContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flexContainer3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flexContainer4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 20%;
+    box-shadow: 0 2px 4px 0 rgba(48,56,97,.2);
+    margin: 0 0 0 5%;
+    padding-top: 35px;
+    position: sticky;
+    top: 80px;
+}
+
+.sideBarLink {
+
+    width: 90%;
+    height: 85px;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    color: #282c3f;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+
+.sideBarContent {
+    width: 60%;
+    flex: 1;
+    margin-left: 30%;
+}
+
+a {
+    color: #282c3f;
+    text-decoration: none;
+}
+
+.fontCss {
+    font-size: xx-small;
+}
+
+.fontCss2 {
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    font-size: small;
+}
+
+
+a:hover {
+    color:#e46d47;
+    cursor: pointer;
+    
+}
+
+a:hover .linkImage{
+    width: 60px;
+    height: 60px;
+}
+
+.linkImage {
+
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.hotelCardContainer:hover {
+    border: 1px solid grey;
+}
+
+.hotelCardCss {
+
+    width: 300px;
+    margin-right: 20px;
+}
+
+.hotelCardImageCss {
+    width: 254px;
+    height: 160px;
+}
+
+.hotelNameCss {
+    font-size: 17px;
+    font-weight: 500;
+    word-break: break-word;
+    margin-top: 20px;
+}
+
+.hotelInfoCss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hotelVarieties {
+    height: 40px;
+}
+
+.ratingCss {
+    height: 20px;
+    width: 43px;
+    font-weight: 400;
+    background-color: #48c479;
+    color: #fff;
+}
