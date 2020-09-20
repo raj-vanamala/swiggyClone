@@ -17,8 +17,8 @@ export default function Help() {
                            
                         </div>
                         <div style={{position: "relative",paddingBottom: "20px"}}>
-                            <div className="inputCss1">
-                                <input type="text" className="inputCss2 inputCss3" placeholder="Search for area, street name.." />
+                            <div className="inputCss111">
+                                <input type="text" className="inputCss222 inputCss333" placeholder="Search for area, street name.." />
                             </div>
                         </div>
 

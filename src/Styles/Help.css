@@ -6,10 +6,10 @@
     background: #fff;
     transition: transform .3s ease-out;
     z-index: 10001;
-    transform: translateZ(0);
+    /* transform: translateZ(0); */
 }
 
-.inputCss1 {
+.inputCss111 {
     border: 1px solid #d4d5d9;
     padding: 0;
     display: block;
@@ -17,13 +17,13 @@
     transform: translateZ(0);
 }
 
-.inputCss2 {
+.inputCss222 {
     height: 50px;
     padding-top: 0;
     font-size: 1.15rem;
 }
 
-.inputCss3 {
+.inputCss333 {
     background-color: transparent;
     line-height: normal;
     border: none;
