@@ -14,6 +14,7 @@ import Search from './Search'
 import SignIn from './SignIn'
 import Home from './Home'
 import LocationSearch from './LocationSearch'
+import Restaurant from './Restaurant'
 import { FaInfoCircle, FaPercentage, FaSearch , FaShoppingCart, FaUser} from 'react-icons/fa'
 
 function NavBar() {
@@ -21,7 +22,7 @@ function NavBar() {
     <Router>
       <div>
             <div className = "NavBar-css">
-                <div >
+                <div>
                     <Link to="/" className = "NavbarLink" 
                         style={{
                             color : "orange",
@@ -58,7 +59,7 @@ function NavBar() {
             <Search />
           </Route>
           <Route path="/Offers">
-            <Offers />
+            <Restaurant />
           </Route>
           <Route path="/Help">
             <Help />

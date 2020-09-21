@@ -5,7 +5,7 @@ export default function LocationSearch() {
 
     return (
         <div style={{marginTop:"100px"}}>
-            <div className = "sidebarCss">
+            <div className = "sidebarCss" style = {{border : "1px solid grey"}}>
 
                 <div style={{position:"relative"}}>
 
