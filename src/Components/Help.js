@@ -1,33 +1,18 @@
 import React from 'react'
-import '../Styles/Help.css'
 
 export default function Help() {
-
-    return (
+    return(
         <div style={{marginTop:"100px"}}>
-            <div className = "sidebarCss">
-
-                <div style={{position:"relative"}}>
-
-                    <div style = {{height: "100vh",position: "relative"}}>
-
-                    <div style={{paddingLeft: "75px", paddingRight: "40px",width: "477px"}}>
-
-                        <div style={{padding: "32px 0 20px",marginBottom: "30px"}}>
-                           
-                        </div>
-                        <div style={{position: "relative",paddingBottom: "20px"}}>
-                            <div className="inputCss111">
-                                <input type="text" className="inputCss222 inputCss333" placeholder="Search for area, street name.." />
-                            </div>
-                        </div>
-
+            <div className="offersBackGroundCss">
+                <div className="offersBackGroundCss1">
+                    <div>
+                        <div className="fontCss1">We Are Here To Help You,Don't Worry!!</div>
+                        <div className="fontCss2">Call Us At +918008791201</div>
                     </div>
-
+                    <div>
+                        <img style = {{height: "200px"}}src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/KHu24Gqw_md3ham" />
                     </div>
-
-                </div>
-
+                </div>  
             </div>
         </div>
     )

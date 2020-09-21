@@ -392,7 +392,7 @@ export default function Home() {
                                     </div>
                                 </div>
                         </div>
-                        <div id="AllHotels" className="sideBarContent">    
+                    <div id="AllHotels" className="sideBarContent">    
 
                             <div style={{marginBottom : "20px"}}>
                                         <div className="flexContainer">
@@ -447,7 +447,7 @@ export default function Home() {
                                         </div>
                             </div>
                         </div>
-                    </div>
+        </div>
 
                     
     )

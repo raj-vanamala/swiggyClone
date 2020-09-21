@@ -13,6 +13,7 @@ import Offers from './Offers'
 import Search from './Search'
 import SignIn from './SignIn'
 import Home from './Home'
+import LocationSearch from './LocationSearch'
 import { FaInfoCircle, FaPercentage, FaSearch , FaShoppingCart, FaUser} from 'react-icons/fa'
 
 function NavBar() {
@@ -25,10 +26,14 @@ function NavBar() {
                         style={{
                             color : "orange",
                             fontFamily : "ProximaNova,Arial,Helvetica Neue,sans-serif",
-                            fontWeight : "bolder",fontSize : "30px"
+                            fontWeight : "bolder",fontSize : "30px",
+                            position: "relative",
+                            left:"-200px"
                             }}>
                     S!</Link>
                 </div>
+
+                <div ><Link to="/LocationSearch" className = "NavbarLink" style={{ position: "relative",left:"-220px"}}><FaSearch />Location Search</Link></div>
 
                 <div ><Link to="/Search" className = "NavbarLink"><FaSearch />Search</Link></div>
                 
@@ -43,8 +48,11 @@ function NavBar() {
           
 
         <Switch>
-            <Route exact path="/">
+          <Route exact path="/">
             <Home />
+          </Route>
+          <Route exact path="/LocationSearch">
+            <LocationSearch />
           </Route>
           <Route exact path="/Search">
             <Search />
